@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big-container{
+    width: 1600px;
+    height:818px;
+}
+.small-caontainer{
+    width: 1141px;
+}
+.section-banner {
+  background-image: url(./images/banner/banner1.png);
+  height: 1600px;
+  background-repeat: no-repeat;
+  margin-top: -55px;
+}
+
+.banner {
+  position: relative;
+  left: 900px;
+  top: 205px;
+}
+#caption {
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76.25px;
+}
+.button {
+  background-color: #f15b22;
+  color: #ffff;
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section-expose{
+    margin-top: -700px;
+}
+.expose{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.expose-left{
+    height: 500px;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.section-plan{
+    margin: 150px;
+}
+#myplan{
+    text-align: center;
+}
+.section-gradiant{
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    margin-left: 200px;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    border-radius: 8px;
+    
+}
+.gradiant-about{
+   margin-left: 100px;
+   padding-top: 60px;
+}
+.button-gradi{
+    background-color: white;
+    width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f15b22;
+}
+.input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:2rem;
+    grid-row-gap:6rem;
+    margin-bottom: 2rem;
+  }
+  .input-wrap-2{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .input-wrap-2 input{
+      margin-bottom: 2rem;
+  }
+  .input-wrap-2 textarea{
+      padding: 0.5rem;
+      margin-bottom: 3rem;
+      
+  }
+  .submit{
+      text-align: center;
+  }
+  .form input{
+      padding: .5rem;
+     
+  }
+  .contact-setion{
+    margin-top: 200px;
+      padding-top: 5rem;
+  }
+  .contact-setion h1{
+      margin-bottom: 2rem;
+  }
+  .contact-setion h1 span{
+      color: aquamarine;
+  }
+  footer{
+      margin-top: 3rem;
+      padding: 3.5rem;
+      background-color: black;
+      color: white;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .btn{
+    background-color: brown;
+    color: cornsilk;
+    border-radius:  10px;
+    padding: 0.8rem 2rem;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: cyan;
+    color: black;
+}
+#input{
+    padding: 1rem;
+}
+.icon{
+    padding: 1rem;
+}
+.text-center{
+    text-align: center;
+}
